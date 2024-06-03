@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dusmatov Mirodiljon</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/src/deep-learning.png" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  -->
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+      
+        <figure class="avatar-box">
+          <img src="./assets/images/src/my.jpg" alt="Mr Murodil" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Mr Murodil">Mr Murodil</h1>
+
+          <p class="title">Data scientist</p>
+          <p class="title">AI engineer, researcher</p>
+          
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+
+              <a href="mailto:murodild@gmail.com" class="contact-link">murodild@gmail.com</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+
+              <a href="tel:+12133522795" class="contact-link">010-4740-6606</a>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="1982-06-23">August 13, 1994</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Seoul, South Korea</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https:/t.me/cengineer13" >
+            <img class="img_icon" src="/assets/images/src/telegram-white-icon.webp"></img>
+            </a>
+
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.facebook.com/murodil.dosmatov" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/mcengineer13/" class="social-link">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.github.com/cengineer13" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <a href="index.html"><button class="navbar-link  active" data-nav-link> Home</button></a>
+          </li>
+
+          <!-- <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Contact</button>
+          </li> -->
+
+        </ul>
+
+      </nav>
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active">
+
+        <header>
+          <h2 class="h2 article-title">Caffe cleanless project</h2>
+        </header>
+        <div class="project-detail">
+        <p align="justify">
+          This project was related to Object Recognition. The goal is to notify a restaurant or cafe employee about whether the tables are empty or not. That Recognition model has 4 classes:
+        </p><br>
+        <ul class="list">
+          <li> 1) Empty + Unoccupied: The table is empty and there is no customer behind that table;</li>
+          <li> 2) Not_Empty + Unoccupied: There is something on a table and there is no customer behind that table</li>
+          <li> 3) Empty + Occupied: The table is empty and there is a customer behind that table;</li>
+          <li> 4) Unoccupied + Occupied: here is something on a table and there is no customer behind that table</li>
+        </ul>
+        
+      <p>Several pre-trained classification models are used to make a recognition model. However, Efficient Net B3 and Efficient Net B6 pre-trained models gave much better 
+        classification results than Inception, Mobile Net, and Efficient Nets [B0, B1, B2, B4, B5, B7]</p>
+        <br>
+        <img class="project-image" src="assets/images/projects/cafe_cleanlines.gif" alt="">
+        <p style="font-size:18px;" align="center">Figure 1. Spatial and Frequency forms of number 6</p>
+      <ul class="list">
+        
+          <li>Features: </li>
+          <li> - Object Classification&Recognition</li>
+          <li><dd> - Transfer Learning</dd></li>
+          <li><dd> - Efficient Nets</dd></li>
+          <li><dd> - Classification.</dd></li>
+          <li> - etc.</li>
+      </ul>
+      <br>
+      <p>Platform: Ubuntu, Windows</p>
+      <p>Stack: Tensorflow, OpenCV, Efficient Nets</p>
+      
+        
+
+
+      </div>
+      </article>
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
