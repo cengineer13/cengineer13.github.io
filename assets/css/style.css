@@ -1926,20 +1926,38 @@ ion-icon {
 .project-detail p{ 
   color: white;
   font-size: medium;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 .project-detail .list li{ 
   color: white;
   font-size: medium;
+  padding-top: 3px;
+  padding-bottom: 3px;
 }
 
+.project-detail h2, h3, h4, h5 {
+  color: var(--white-2);
+  text-transform: capitalize;
+}
 .project-detail img{ 
-  padding: 2%;
+  padding-bottom: 1%;
+  padding-top: 1%;
   max-width: 100%;
   height: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
 }
+
+.project-article-title {
+  position: relative;
+  padding-top: 2%;
+  color: chocolate;
+  text-align: center;
+}
+
+
 
 
 /* VIDEO PLAY PROJECTS */

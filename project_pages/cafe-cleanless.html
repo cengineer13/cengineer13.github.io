@@ -10,12 +10,12 @@
   <!--
     - favicon
   -->
-  <link rel="shortcut icon" href="./assets/images/src/deep-learning.png" type="image/x-icon">
+  <link rel="shortcut icon" href="../assets/images/src/deep-learning.png" type="image/x-icon">
 
   <!--
     - custom css link
   -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
 
   <!--
     - google font link
@@ -43,7 +43,7 @@
       <div class="sidebar-info">
       
         <figure class="avatar-box">
-          <img src="./assets/images/src/my.jpg" alt="Mr Murodil" width="80">
+          <img src="../assets/images/src/my.jpg" alt="Mr Murodil" width="80">
         </figure>
 
         <div class="info-content">
@@ -176,7 +176,7 @@
         <ul class="navbar-list">
 
           <li class="navbar-item">
-            <a href="index.html"><button class="navbar-link  active" data-nav-link> Home</button></a>
+            <a href="../index.html"><button class="navbar-link  active" data-nav-link> Home</button></a>
           </li>
 
           <!-- <li class="navbar-item">
@@ -186,11 +186,6 @@
         </ul>
 
       </nav>
-
-
-
-
-
       <!--
         - #ABOUT
       -->
@@ -198,44 +193,39 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">Extending Input Channel Using Fourier Fast Transformation for Convolutional Neural Networks</h2>
+          <h2 class="h2 article-title">Caffe cleanless project</h2>
         </header>
         <div class="project-detail">
-        <h2 style="color: white;text-align: center;">Classification improvement</h2>
-        <br>
         <p align="justify">
-          All digits are centralized in MNIST. 
-          When a digit is displaced from the center, it leads to a decrease in accuracy.
-          However, The <strong>Fast Fourier Transform</strong> (FFT) can generate images with similar frequency characteristics from both centered and shifted images (as shown in <strong>Figure 1</strong>). 
-          The goal of that research was to improve classification results. 
-          To improve the result, the "<strong>Concatenated</strong>" images' dataset will be trained instead of <strong>Spatial</strong> or <strong>Frequency</strong> images. To produce "Concatenated" images,  <strong>Channels</strong> of Spatial and Frequency images will be joined (<strong>Figure 2</strong>). 
-          After training "Concatenated" images, accurate results will be much better than Spatial and frequency images as indicated in <strong>Table 1</strong>. 
-        </p>
+          This project was related to Object Recognition. The goal is to notify a restaurant or cafe employee about whether the tables are empty or not. That Recognition model has 4 classes:
+        </p><br>
+        <ul class="list">
+          <li> 1) Empty + Unoccupied: The table is empty and there is no customer behind that table;</li>
+          <li> 2) Not_Empty + Unoccupied: There is something on a table and there is no customer behind that table</li>
+          <li> 3) Empty + Occupied: The table is empty and there is a customer behind that table;</li>
+          <li> 4) Unoccupied + Occupied: here is something on a table and there is no customer behind that table</li>
+        </ul>
         
-
-
-      <img class="project-image" src="assets/images/projects/fft1.jpg" alt="">
-      <p style="font-size:18px;" align="center">Figure 1. Spatial and Frequency forms of number 6</p>
-        
+      <p>Several pre-trained classification models are used to make a recognition model. However, Efficient Net B3 and Efficient Net B6 pre-trained models gave much better 
+        classification results than Inception, Mobile Net, and Efficient Nets [B0, B1, B2, B4, B5, B7]</p>
+        <br>
+        <img class="project-image" src="../assets/images/projects/cafe_cleanlines.gif" alt="">
+        <p style="font-size:18px;" align="center">Video: Episod from cafe cleanless app</p>
       <ul class="list">
+        
           <li>Features: </li>
-          <li> - MNIST dataset</li>
-          <li><dd> - Fast Fourier Transform</dd></li>
-          <li><dd>- Concatination.</dd></li>
+          <li> - Object Classification&Recognition</li>
+          <li><dd> - Transfer Learning</dd></li>
+          <li><dd> - Efficient Nets</dd></li>
           <li><dd> - Classification.</dd></li>
           <li> - etc.</li>
-
       </ul>
-      
-        <img class="project-image" src="assets/images/projects/concatination_fft-ezgif.com-resize.gif" alt="">
-        <p style="font-size:18px;" align="center">Figure 2. Converting Spatial image to Frequency, and Concatnating channels of Spatial and Frequency images</p>
+      <br>
+      <p>Platform: Ubuntu, Windows</p>
+      <p>Stack: Tensorflow, OpenCV, Efficient Nets</p>
+      <br>
+      <h2 style="color: rgb(255, 98, 0); text-align: center;">Please excuse me, I can not share the source codes due to copyrights*</h2>
         
-
-        <img class="project-image" src="assets/images/projects/fft3.jpg" alt="">
-        <p style="font-size:18px;" align="center">Table 1. Accuracy results of Spatial, Frequency and Concatinated images</p>
-        <br>
-        <h2 style="color: rgb(255, 98, 0); text-align: center;">Please excuse me, I can not share the source codes due to copyrights*</h2>
-
 
 
       </div>
