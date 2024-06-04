@@ -193,39 +193,74 @@
       <article class="about  active">
 
         <header>
-          <h2 class="h2 article-title">Caffe cleanless project</h2>
+          <h2 class="h3 article-title">Personal English Dictionary Android Application</h2>
         </header>
         <div class="project-detail">
-        <p align="justify">
-          This project was related to Object Recognition. The goal is to notify a restaurant or cafe employee about whether the tables are empty or not. That Recognition model has 4 classes:
-        </p><br>
-        <ul class="list">
-          <li> 1) Empty + Unoccupied: The table is empty and there is no customer behind that table;</li>
-          <li> 2) Not_Empty + Unoccupied: There is something on a table and there is no customer behind that table</li>
-          <li> 3) Empty + Occupied: The table is empty and there is a customer behind that table;</li>
-          <li> 4) Unoccupied + Occupied: here is something on a table and there is no customer behind that table</li>
-        </ul>
         
-      <p>Several pre-trained classification models are used to make a recognition model. However, Efficient Net B3 and Efficient Net B6 pre-trained models gave much better 
-        classification results than Inception, Mobile Net, and Efficient Nets [B0, B1, B2, B4, B5, B7]</p>
-        <br>
-        <img class="project-image" src="../assets/images/projects/cafe_cleanlines.gif" alt="">
-        <p style="font-size:18px;" align="center">Video: Episod from cafe cleanless app</p>
-      <ul class="list">
-        
-          <li>Features: </li>
-          <li> - Object Classification&Recognition</li>
-          <li><dd> - Transfer Learning</dd></li>
-          <li><dd> - Efficient Nets</dd></li>
-          <li><dd> - Classification.</dd></li>
-          <li> - etc.</li>
-      </ul>
-      <br>
-      <p>Platform: Ubuntu, Windows</p>
-      <p>Stack: Tensorflow, OpenCV, Efficient Nets</p>
-      <br>
-      <h2 style="color: rgb(255, 98, 0); text-align: center;">Please excuse me, I can not share the source codes due to copyrights*</h2>
-        
+          <h2>Overview</h2>
+    <p>This project is an Android application called "Personal English Dictionary." It allows users to look up English words and their translations, add words to their personal dictionary, and test their vocabulary through quizzes.</p>
+    <br>  
+    <h2>Features</h2>
+    <ul class="list">
+        <li><strong>Dictionary</strong>: Look up English words and get their translations in Uzbek.</li>
+        <li><strong>Personal Dictionary</strong>: Save words to a personal dictionary for future reference.</li>
+        <li><strong>Quizzes</strong>: Test your vocabulary knowledge with two types of quizzes - "Find the Word" and "Type the Word".</li>
+    </ul> 
+    <br>
+    <h2>Prerequisites</h2>
+    <ul class="list">
+        <li>Android Studio</li>
+        <li>Java JDK</li>
+        <li>Genymotion Emulator (optional but recommended for better performance)</li>
+    </ul>
+    <br>
+    <h2>Installation</h2>
+
+    <h3>Step 1: Install Android Studio</h3>
+    <ol class="list">
+        <li>Download Android Studio from <a href="https://developer.android.com/studio/">here</a></li>
+        <li>Run the installation file and follow the Setup Wizard.</li>
+        <li>Choose the installation location and components to install.</li>
+        <li>Complete the installation and start Android Studio.</li>
+    </ol>
+    
+    <h3>Step 2: Set Up Genymotion Emulator</h3>
+    <ol class="list">
+         <li>Download Genymotion from <a href="https://www.genymotion.com/fun-zone/">here</a></li>
+        <li>Install Genymotion and VirtualBox if not already installed.</li>
+        <li>Launch Genymotion and add a virtual device.</li>
+        <li>Start the virtual device from the Genymotion Manager.</li>
+    </ol>
+    <br>
+    <h3>Step 3: Run the Application</h3>
+    <ol class="list">
+        <li>Ensure your emulator is running.</li>
+        <li>Click the "Run" button in Android Studio to compile and run the application on the emulator.</li>
+    </ol>
+    <br>
+    <h2 class="project-article-title">Screenshots</h2>
+    <h3>1. Main Activity</h3>
+    <img src="../assets/images/projects/interactive dictionary/2.png" alt="Main Activity">
+
+    <h3>2. Dictionary Section</h3>
+    <img src="../assets/images/projects/interactive dictionary/3.png" alt="Dictionary">
+
+    <h3>3. Personal Dictionary Section</h3>
+    <img src="../assets/images/projects/interactive dictionary/4.png" alt="Personal Dictionary">
+
+    <h3>4. Quizzes Section</h3>
+    <img src="../assets/images/projects/interactive dictionary/5.png" alt="Quizzes">
+
+    <h3>Database Setup with SQLite</h2>
+    <p>SQLite is used for managing the application's data. Follow these steps to set up and use SQLite:</p>
+    <ol class="list">
+        <li><strong>Create a Database</strong>: Use the DB Browser for SQLite to create a new database.</li>
+        <li><strong>Define Tables</strong>: Create tables to store dictionary entries and user-specific data.</li>
+        <li><strong>Execute SQL Queries</strong>: Use the "Execute SQL" tab in DB Browser to run SQL commands.</li>
+    </ol>
+    <br>
+    <h4>Author</h4> <p>Dusmatov Murodil</p>
+
 
 
       </div>
@@ -233,10 +268,6 @@
     </div>
 
   </main>
-
-
-
-
 
 
   <!--
